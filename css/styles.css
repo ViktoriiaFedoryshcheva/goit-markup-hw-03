@@ -1,0 +1,245 @@
+/*font-family: "Raleway", sans-serif;
+font-family: "Roboto", sans-serif; */
+
+:root {
+	--main-font: "Roboto", sans-serif;
+	--secondary-font: "Raleway", sans-serif;
+	--accent-color: #2196f3;
+}
+
+body {
+	font-family: var(--main-font);
+	font-style: normal;
+	font-size: 14px;
+}
+
+a {
+	text-decoration: none;
+	font-style: normal;
+}
+
+ul {
+	list-style: none;
+}
+/*==================   header   ==================*/
+.logo {
+	font-family: var(--secondary-font);
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.192;
+	/* identical to box height */
+	letter-spacing: 0.03em;
+	color: var(--accent-color);
+}
+
+.logo_black {
+	color: #000000;
+}
+
+.menu_list_link,
+.contact_mail,
+.contact_tel {
+	font-weight: 500;
+	line-height: 1.143;
+	letter-spacing: 0.02em;
+	color: #212121;
+}
+
+.contact_mail,
+.contact_tel {
+	color: #757575;
+}
+.active_link,
+.menu_list_link:hover,
+.menu_list_link:focus,
+.contact_mail:hover,
+.contact_mail:focus {
+	color: var(--accent-color);
+}
+/*==================   END header   ==================*/
+
+/*==================   HERO   ==================*/
+.hero {
+	height: 600px;
+	background-color: 2f303a;
+}
+
+.hero_title {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	/* or 136% */
+
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+
+	/*color: #ffffff;*/
+}
+
+.button {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.87;
+	/* identical to box height, or 187% */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+
+	color: #ffffff;
+
+	background: var(--accent-color);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+}
+/*==================   END HERO   ==================*/
+
+/*==================   Features   ==================*/
+
+.features_item_title {
+	font-weight: 700;
+	line-height: 1.143;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #212121;
+}
+
+.features_item_description {
+	font-weight: 400;
+	line-height: 1.71;
+	/* or 171% */
+	letter-spacing: 0.03em;
+	color: #757575;
+}
+/*==================   END Features   ==================*/
+
+/*==================   ABOUT   ==================*/
+.about_title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.167;
+	text-align: center;
+	letter-spacing: 0.03em;
+
+	color: #212121;
+}
+
+/* width: 370px;
+height: 294px; */
+/*==================   END ABOUT   ==================*/
+
+/*==================   OUR TEAM   ==================*/
+
+.our_team_title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.167;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #212121;
+}
+
+.our_team_person,
+.our_team_profession {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.1875;
+	/* identical to box height */
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #212121;
+}
+
+.our_team_profession {
+	font-weight: 400;
+	color: #757575;
+}
+/*==================   END OUR TEAM   ==================*/
+
+/*==================   FOOTER   ==================*/
+
+.logo_white {
+	color: #ffffff;
+}
+.footer {
+	/* text-decoration: none; */
+	font-weight: 400;
+	letter-spacing: 0.03em;
+}
+
+.post_address {
+	font-style: normal;
+	line-height: 1.71;
+	/*color: #FFFFFF;*/
+}
+.footer_contact_mail,
+.footer_contact_tel {
+	text-decoration: none;
+	font-style: normal; 
+	font-weight: 400; 
+	letter-spacing: 0.03em;
+	line-height: 1.71;
+	/*color: rgba(255, 255, 255, 0.6);*/
+}
+/*==================   END OF FOOTER   ==================*/
+
+/*==================   PORTFOLIO   ==================*/
+
+/*==================   FILTERS   ==================*/
+
+.filters_item {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	/* identical to box height, or 162% */
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #212121;
+	background: #f5f4fa;
+	border-radius: 4px;
+}
+
+/*==================  END FILTERS   ==================*/
+
+/*==================   PROJECTS   ==================*/
+.proj_name {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 2, 0;
+	/* identical to box height, or 200% */
+	letter-spacing: 0.06em;
+	color: #212121;
+}
+
+.proj_description {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.87;
+	/* identical to box height, or 187% */
+
+	letter-spacing: 0.03em;
+	color: #757575;
+}
+
+///////
+body {
+	a p .... 
+	
+	.tel {}
+
+	.hheader {
+	}
+
+	.body {
+	}
+
+	.footer {
+		.address {
+			.tel {
+				line
+			}
+		}
+	}
+}
