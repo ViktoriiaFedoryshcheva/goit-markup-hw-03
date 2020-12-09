@@ -4,46 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолиоt</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <Header class="header">
-    <nav class="navigation">
-        <a class="logo" href="/" lang="en">Web<span class="logo_black">Studio</span></a>
-        <ul class="menu_list">
-            <li class="menu_list_item">
-                <a class="menu_list_link" href="./index.html">Студия</a>
-            </li>
-            <li class="menu_list_item">
-                <a class="menu_list_link active_link" href="#">Портфолио</a>
-            </li>
-            <li class="menu_list_item">
-                <a class="menu_list_link" href="#">Контакты</a>
-            </li>
-        </ul>
-    </nav>
-    <address class="address">
-        <a class="contact_mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="contact_tel" href="tel:+380961111111">+38 096 111 11 11</a>
-    </address>
-    </Header>
+<Header class="header">
+    <div class="container">
+        <nav class="navigation">
+            <a class="logo link" href="/" lang="en">Web<span class="logo_black">Studio</span></a>
+            <ul class="menu_list list">
+                <li class="menu_list_item">
+                    <a class="menu_list_link link" href="./index.html">Студия</a>
+                </li>
+                <li class="menu_list_item">
+                    <a class="menu_list_link active_link  link" href="#">Портфолио</a>
+                </li>
+                <li class="menu_list_item">
+                    <a class="menu_list_link link" href="#">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <address class="address">
+            <a class="contact_mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="contact_tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+        </address>
+    </div>
+</Header>
     <main>        
        
             <!--Фильтры-->
             <section class="filters">
-            <h2 class="filters_title"   hidden>Фильтры</h2>
-                <ul class="filters_list">
-                    <li> <button class="filters_item" type="button">Все</button> </li>
-                    <li> <button class="filters_item" type="button">Веб-сайты</button> </li>
-                    <li> <button class="filters_item" type="button">Приложения</button> </li>
-                    <li> <button class="filters_item" type="button">Дизайн</button> </li>
-                    <li> <button class="filters_item" type="button">Маркетинг</button> </li>                
-                </ul>
-            <h2 hidden>--Проекты--</h2>
-                <ul class="project_list">
+                <div class="container">
+                <h2 class="filters_title"   hidden>Фильтры</h2>
+                <div class="filters_buttons">
+                    <ul class="filters_list list">
+                        <li class="filter_name"> <button class="button2" type="button">Все</button> </li>
+                        <li class="filter_name"> <button class="button2" type="button">Веб-сайты</button> </li>
+                        <li class="filter_name"> <button class="button2" type="button">Приложения</button> </li>
+                        <li class="filter_name"> <button class="button2" type="button">Дизайн</button> </li>
+                        <li class="filter_name"> <button class="button2" type="button">Маркетинг</button> </li>
+                    </ul>
+                               
+                <h2 hidden>--Проекты--</h2>
+                <ul class="project_list list">
                     <li class="project_item">
                         <img class="project_image" src="./images_portfolio/tehnokrak.jpg" alt="Технокряк">
                         <h3 class="proj_name">Технокряк</h3>
@@ -90,7 +96,8 @@
                         <p class="proj_description">Приложение</p>
                     </li>
                 </ul>
-
+                </div>
+            </div>
 
             </section>            
         
@@ -100,13 +107,15 @@
     </main>
     <!--Footer-->
     <footer class="footer">
-        <a class="logo" href="/" lang="en">Web<span class="logo_white">Studio</span></a>
-        <address class="address_footer">
-            <p class="post_address">г. Киев, пр-т Леси Украинки, 26</p>
-            <a class="footer_contact_mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a class="footer_contact_tel" href="tel:+380961111111">+38 096 111 11 11</a>
-        </address>
+        <div class="container">
+            <a class="logo link" href="/" lang="en">Web<span class="logo_white">Studio</span></a>
+            <address class="address_footer">
+                <p class="post_address">г. Киев, пр-т Леси Украинки, 26</p>
+                <a class="footer_contact_mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <br>
+                <a class="footer_contact_tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+            </address>
+        </div>
     </footer>
-    
 </body>
 </html>
